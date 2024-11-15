@@ -1,0 +1,28 @@
+
+<html>
+<head>
+   <style>
+        body{
+            txt-align:center;
+            }
+            button{
+                   font-size:16px;color:white;background-color:black;burder radius:10px;
+                   }
+    </style>
+</head>
+<body>
+     <button id="button1"onlick="lighton()">Turn on the light</button>
+     <img id="my image"width="300">
+     <button id="button2"onclick="lightoff()">Turn off the light</button>
+     </body>
+  <script>
+        function lighton(){
+                        document.getElement("my image").src='/home/web/b11.jpeg';
+                        };
+        function lightoff(){
+                        document.getElementById("my image").src='/home/web/b22.jpeg';
+                        };
+      </script>
+</html>
+
+

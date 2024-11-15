@@ -1,0 +1,19 @@
+.class-selectors{
+                color-white;
+                background-color:blue;
+                padding:10px;
+                }
+      #id-selector{
+               color:brown;
+               background-color:orange;
+               padding:10px;
+               }
+      .group-selector{
+               color:violet;
+               background-color:lightblue;
+               padding:10px;
+               }
+       h1{
+          text-align:center;
+          color:navy;
+          }
